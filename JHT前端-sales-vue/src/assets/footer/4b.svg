@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="41px" viewBox="0 0 40 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>剪影图标</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="71.0719023%" id="linearGradient-1">
+            <stop stop-color="#68DCFF" offset="0%"></stop>
+            <stop stop-color="#17A2FD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="我的任务icon-copy" transform="translate(-2.000000, -1.000000)" fill="url(#linearGradient-1)">
+            <g id="剪影图标" transform="translate(2.000000, 1.000000)">
+                <path d="M31.6589591,16.8596838 C30.6141247,21.1435938 27.2676522,24.5258552 23,25.6225849 L23,26.0033595 C24.8049383,26.0096897 37.7371907,35.386796 38.8307983,36.9385466 C40.0716399,38.6992116 40.0405477,39.9007712 39.9743892,41.0018559 L0,41.0018559 C0.0217635563,40.0068616 0.0125156124,38.9284595 1.3165687,36.9385466 C2.61291914,34.9603874 15.0744523,26.1087877 17,26.0042894 L17,25.6220498 C12.7347173,24.5245733 9.38720205,21.1419128 8.34152095,16.8598041 C6.97785464,16.5182638 6,15.5906998 6,14.5 C6,13.5027157 6.81752633,12.6418197 8,12.2405826 L8,11.9916239 C8,5.36883289 13.3711258,0 20,0 C26.627417,0 32,5.37144642 32,11.9916239 L32,12.2405826 C33.1824737,12.6418197 34,13.5027157 34,14.5 C34,15.5905718 33.0223749,16.5180461 31.6589591,16.8596838 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

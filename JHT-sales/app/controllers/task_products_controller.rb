@@ -1,0 +1,3 @@
+class TaskProductsController < ApplicationController
+
+end

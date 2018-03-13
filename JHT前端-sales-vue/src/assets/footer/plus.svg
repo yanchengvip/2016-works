@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>我的任务icon copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="4.59346742%" x2="50%" y2="70.3976241%" id="linearGradient-1">
+            <stop stop-color="#86E3FF" offset="0%"></stop>
+            <stop stop-color="#17A2FD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="我的任务icon-copy" fill="url(#linearGradient-1)">
+            <g id="添加识别码" transform="translate(-13.000000, -9.000000)">
+                <path d="M37,12.9972916 C37,11.8915398 36.1045695,11 35,11 C33.8877296,11 33,11.8918048 33,12.9919017 L33,29 L16.9972916,29 C15.8915398,29 15,29.8954305 15,31 C15,32.1122704 15.8918048,33 16.9919017,33 L33,33 L33,44.4437145 L33,48.9972734 C33,50.1021235 33.8954305,51 35,51 C36.1122704,51 37,50.1057821 37,49.0027084 L37,33 L48.4437145,33 L52.9972734,33 C54.1021235,33 55,32.1045695 55,31 C55,29.8877296 54.1057821,29 53.0027084,29 L37,29 L37,12.9972916 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

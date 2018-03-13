@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>支付成功icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.2 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="33.7644651%" x2="100%" y2="63.4399528%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#D8F0FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="订单列表" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="支付成功icon">
+            <path d="M0.754716981,20 C0.754716981,30.6286792 9.3709434,39.245283 20,39.245283 C30.6290566,39.245283 39.245283,30.6286792 39.245283,20 C39.245283,9.3709434 30.6290566,0.754716981 20,0.754716981 C9.3709434,0.754716981 0.754716981,9.3709434 0.754716981,20 Z" id="Fill-1" fill="#17A2FD"></path>
+            <path d="M20,36.2264151 C11.0384906,36.2264151 3.77358491,28.9615094 3.77358491,20 C3.77358491,11.0384906 11.0384906,3.77358491 20,3.77358491 C28.9615094,3.77358491 36.2264151,11.0384906 36.2264151,20 C36.2264151,28.9615094 28.9615094,36.2264151 20,36.2264151 M20,3.01886792 C10.6215094,3.01886792 3.01886792,10.6215094 3.01886792,20 C3.01886792,29.3784906 10.6215094,36.9811321 20,36.9811321 C29.3784906,36.9811321 36.9811321,29.3784906 36.9811321,20 C36.9811321,10.6215094 29.3784906,3.01886792 20,3.01886792" id="Fill-7" fill="#7ECCFF"></path>
+            <path d="M19.9999623,37.7356981 C9.91467925,37.7356981 1.72071698,29.6598491 1.51883019,19.6224906 C1.51656604,19.7485283 1.50939623,19.873434 1.50939623,19.9998491 C1.50939623,30.2119245 9.78788679,38.4904151 19.9999623,38.4904151 C30.2120377,38.4904151 38.4905283,30.2119245 38.4905283,19.9998491 C38.4905283,19.873434 38.4837358,19.7485283 38.4810943,19.6224906 C38.2792075,29.6598491 30.0856226,37.7356981 19.9999623,37.7356981 Z" id="Fill-9" fill-opacity="0.200000003" fill="#FFFFFF"></path>
+            <path d="M20,38.490566 C9.78792453,38.490566 1.50943396,30.2120755 1.50943396,20 C1.50943396,9.78792453 9.78792453,1.50943396 20,1.50943396 C30.2120755,1.50943396 38.490566,9.78792453 38.490566,20 C38.490566,30.2120755 30.2120755,38.490566 20,38.490566 M20,0 C8.95433962,0 0,8.95433962 0,20 C0,31.0456604 8.95433962,40 20,40 C31.0456604,40 40,31.0456604 40,20 C40,8.95433962 31.0456604,0 20,0" id="Fill-11" fill="#7ECCFF"></path>
+            <g id="Group" filter="url(#filter-1)" transform="translate(5.000000, 8.000000)">
+                <g id="Group-6" transform="translate(12.500000, 11.000000) rotate(-24.000000) translate(-12.500000, -11.000000) translate(3.000000, 4.000000)">
+                    <rect id="Rectangle-Copy" fill="#7ECCFF" x="5.24025268e-14" y="1.42108547e-14" width="19" height="14" rx="2"></rect>
+                    <rect id="Rectangle-19" fill="url(#linearGradient-2)" x="1" y="1" width="17" height="12" rx="1"></rect>
+                </g>
+                <rect id="Rectangle" fill="#7ECCFF" x="5" y="8" width="21" height="14" rx="2"></rect>
+                <rect id="Rectangle-18" fill="#FFFFFF" x="6" y="9" width="19" height="12" rx="1"></rect>
+                <rect id="Rectangle-2" fill="#7ECCFF" x="7" y="12" width="5" height="5" rx="1"></rect>
+                <rect id="Rectangle-3" fill="#7ECCFF" x="7" y="18" width="1" height="2" rx="0.5"></rect>
+                <rect id="Rectangle-3-Copy" fill="#7ECCFF" x="9" y="18" width="1" height="2" rx="0.5"></rect>
+                <rect id="Rectangle-3-Copy-2" fill="#7ECCFF" x="11" y="18" width="1" height="2" rx="0.5"></rect>
+                <rect id="Rectangle-3-Copy-3" fill="#7ECCFF" x="17" y="18" width="1" height="2" rx="0.5"></rect>
+                <rect id="Rectangle-3-Copy-4" fill="#7ECCFF" x="19" y="18" width="1" height="2" rx="0.5"></rect>
+                <rect id="Rectangle-3-Copy-5" fill="#7ECCFF" x="21" y="18" width="1" height="2" rx="0.5"></rect>
+                <rect id="Rectangle-3-Copy-7" fill="#7ECCFF" x="23" y="18" width="1" height="2" rx="0.5"></rect>
+                <rect id="Rectangle-3-Copy-6" fill="#7ECCFF" x="13" y="18" width="1" height="2" rx="0.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

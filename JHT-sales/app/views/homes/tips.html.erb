@@ -1,0 +1,29 @@
+<!--消息提醒弹出窗口界面-->
+<!--<script>
+    //  alert('您的账号正在审核,暂无权查看相关页面')
+    alert("<%#= @message%>")
+    WeixinJSBridge.call('closeWindow')
+</script>-->
+
+
+
+<div class= "webui_dialog_alert" style="display: none;">
+  <div class="weui-mask"></div>
+  <div class="weui-dialog">
+    <div class="weui-dialog__hd"><strong class="weui-dialog__title">温馨提示</strong></div>
+    <div class="weui-dialog__bd"><%= @message%></div>
+    <div class="weui-dialog__ft">
+      <a href="javascript:;" onclick="clodseWindow()" class="weui-dialog__btn weui-dialog__btn_primary">确定</a>
+    </div>
+  </div>
+</div>
+
+
+<script>
+    $('.webui_dialog_alert').show()
+
+    function clodseWindow(){
+        WeixinJSBridge.call('closeWindow')
+    }
+</script>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>我的任务icon copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="71.0719023%" id="linearGradient-1">
+            <stop stop-color="#68DCFF" offset="0%"></stop>
+            <stop stop-color="#17A2FD" offset="100%"></stop>
+        </linearGradient>
+        <path d="M22.1138762,30.3803422 C26.5612218,30.3803422 30.1665078,26.7750563 30.1665078,22.3277107 C30.1665078,17.8803651 26.5612218,14.2750791 22.1138762,14.2750791 C17.6665306,14.2750791 14.0612446,17.8803651 14.0612446,22.3277107 C14.0612446,26.7750563 17.6665306,30.3803422 22.1138762,30.3803422 Z M22.1138762,25.906658 C24.0904742,25.906658 25.6928235,24.3043087 25.6928235,22.3277107 C25.6928235,20.3511126 24.0904742,18.7487633 22.1138762,18.7487633 C20.1372781,18.7487633 18.5349288,20.3511126 18.5349288,22.3277107 C18.5349288,24.3043087 20.1372781,25.906658 22.1138762,25.906658 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="我的任务icon-copy">
+            <g id="选中">
+                <g id="靶子">
+                    <path d="M22,44 C34.1502645,44 44,34.1502645 44,22 C44,9.8497355 34.1502645,0 22,0 C9.8497355,0 0,9.8497355 0,22 C0,34.1502645 9.8497355,44 22,44 Z" id="Mask" fill="url(#linearGradient-1)"></path>
+                    <path d="M22,36.4864294 C30.2842712,36.4864294 37,29.9742076 37,21.9409749 C37,13.9077422 30.2842712,7.39552035 22,7.39552035 C13.7157288,7.39552035 7,13.9077422 7,21.9409749 C7,29.9742076 13.7157288,36.4864294 22,36.4864294 Z" id="Mask" fill="#FFFFFF"></path>
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

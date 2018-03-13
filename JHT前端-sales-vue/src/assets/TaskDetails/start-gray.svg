@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="44px" height="43px" viewBox="0 0 44 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="我的任务" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="任务详情－进行中" transform="translate(-32.000000, -675.000000)" fill="#E0E0E0">
+            <g id="进度" transform="translate(32.000000, 522.000000)">
+                <g id="2级任务" transform="translate(0.000000, 152.000000)">
+                    <g id="级别-icon" transform="translate(0.000000, 1.000000)">
+                        <path d="M21.9382204,36.9829469 C8.42626939,46.2828545 4.02393469,43.0452252 8.73085714,27.2696979 C-4.22974694,17.2165385 -2.52811429,12.0018713 13.8352163,11.6253357 C19.3371918,-3.88786154 24.7912163,-3.87288671 30.1974694,11.6698993 C46.5582857,12.1353818 48.2275918,17.3592503 35.2053878,27.3416853 C39.8149714,43.1424713 35.392702,46.3562853 21.9382204,36.9829469 L21.9382204,36.9829469 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,51 @@
+<script src="http://g.alicdn.com/ilw/ding/0.9.9/scripts/dingtalk.js"></script>
+<%#= @signature[:agentId]%><h1>获取签名页面 =__=</h1>
+<div id="test"></div>
+<script>
+
+    $.ajax({
+        method: 'get',
+        url: 'http://yc.tunnel.jinhuobao.com.cn/dings/ding_signature',
+        data: {url: 'http://yc.tunnel.jinhuobao.com.cn/users/home'},
+        success: function (result) {
+            dd.config({
+                agentId: result.agentId, // 必填，微应用ID
+                corpId: result.corpId,//必填，企业ID
+                timeStamp: result.timeStamp , // 必填，生成签名的时间戳
+                nonceStr: result.nonceStr, // 必填，生成签名的随机串
+                signature: result.signature, // 必填，签名
+                jsApiList: ['device.notification.alert', 'device.notification.confirm']// 必填，需要使用的jsapi列表
+            });
+
+            dd.ready(function(){
+                dd.runtime.permission.requestAuthCode({
+                    corpId: result.corpId,
+                    onSuccess: function(result) {
+                        $.ajax({
+                            method:'get',
+                            url:'http://yc.tunnel.jinhuobao.com.cn/dings/ding_user_info',
+                            data:{code:result.code},
+                            success: function(result){
+                                alert(JSON.stringify(result))
+                            },
+                            error:function(err){
+                                alert(JSON.stringify(err))
+                            }
+                        })
+                    },
+                    onFail : function(err) {alert(3+JSON.stringify(err))}
+
+                })
+            });
+            dd.error(function(error){
+                alert(JSON.stringify(error))
+            });
+        },
+        error: function (err) {
+            alert(55855)
+        }
+    })
+
+
+
+</script>

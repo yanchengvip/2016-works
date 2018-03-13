@@ -1,0 +1,5 @@
+{
+    "src": "dist/",
+    "dest": "qiniu:access_key=U3OtiDTSynpBRRmrcOKymcbSakfg-Zc6UUBIJldW&secret_key=rtE3LPNM6NWQsv5z2HB01CVi2aKr15itTdObwTXk&bucket=jhbwx&key_prefix=",
+    "debug_level": 0
+}

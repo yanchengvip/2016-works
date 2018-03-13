@@ -1,0 +1,103 @@
+defaults: &defaults
+  sms:
+    enable: true
+    expire_in: 30   # 分钟
+    check_code_template: 39738
+
+  qiniu:
+    secret_key: 'rtE3LPNM6NWQsv5z2HB01CVi2aKr15itTdObwTXk'
+    access_key: 'U3OtiDTSynpBRRmrcOKymcbSakfg-Zc6UUBIJldW'
+    qiniu_base_url: 'http://7xnnlv.com1.z0.glb.clouddn.com/' #必选为对应bucket默认的域名
+    bucket: 'xxxx'
+
+
+
+
+
+#开发环境-微信测试号(yancheng)
+development_weixin_local: &development_weixin_yan
+  weixin:
+      appID: 'wxe56816642b505d6f' #测试
+      appsecret: 'd4624c36b6795d1d99dcf0547af5443d' #测试
+
+       #后台地址
+      get_weixin_code_by_url: 'http://xxx/weixins/get_weixin_code_by_url'
+      signup_update_form: 'http://xxx/users/signup_update_form' #审核失败后，点击微信提示消息，进入修改注册的个人信息
+      signup: 'http://xxx/signup'
+      login_again: 'http://xxx/homes/login_again' #后台
+      tips: 'http://xxx/homes/tips' #后台
+      user_task_home: 'http://xxx/homes/task' #后台
+      old_jht_token: 'http://xxx/homes/change_token'
+      qrcode_bind_order: 'http://xxx/jht2/user_orders/qrcode_bind_order'
+
+       #前端地址
+      jhtwebchat: 'http://lerry.tunnel.jinhuobao.com.cn'
+
+
+       #微信模板
+      template1: 'LIQZzTEEmVa78C0j0-HEUcNcnsJAPVZKNqby2KrZFFg' #审核失败通知
+      template2: '2iLOJ8WnVvC8pGY_pbcPSFBuhJLa4FPxp0zIMsfxsdE' #审核成功通知
+      template3: 'H_WEVvJB0PMBCkB6314-ZI4aOOnp91JSrno0ZbQ1wd4' #订单退货通知
+      template4: 'cTeJ2ZFbdKPvJmQwH7U2MYXHQIBPauwdE-Fz3l-vFuU' #订单取消通知
+
+  verifybankcard: 'http://v.juhe.cn/verifybankcard3/query?key=xxxx' #验证身份证和卡号一致性
+
+  platform:
+        jhb_bind_order: 'http://xxxx/GetOrderDetails/Post'
+  redis:
+     host: 127.0.0.1
+     port: 6379
+     db: 0
+
+
+
+#生产环境微信测试号
+production_weixin: &production_weixin
+  weixin:
+       appID: 'xxxx' #正式环境微信
+       appsecret: 'xxxxx' #正式环境微信
+
+
+       #后台地址
+       get_weixin_code_by_url: 'xxxx'
+       signup_update_form: 'xxxxx'
+       signup: 'xxxx'
+       login_again: 'xxxx' #后台
+       tips: 'xxx' #后台
+       user_task_home: 'xxx' #后台
+       old_jht_token: 'xxx'
+       qrcode_bind_order: 'xxx'
+
+
+       #前端地址
+       jhtwebchat: 'xxx'
+       web_tui_guang: 'xxx'
+
+       #微信模板
+       template1: 'BOM1u8g4b2SRw-H_UyoL_axfldZHQbdQAKjAOvuYOuU' #审核失败通知
+       template2: '6NbY9uygyFuIdJ5zqQhdx0d2U1we3-4HRRNMh6Fej20' #审核成功通知
+       template3: 'rzKbpylAC3oFOiscS_ovcAd02BLEv3ASAZxYSxmwG6U' #订单退货通知
+       template4: 'yUAyqDtxCWeuklnvPwswHSi-2oviQZlLZHsMxlLndv4' #订单取消通知
+
+
+  verifybankcard: 'http://v.juhe.cn/verifybankcard3/query?key=xxxx' #验证身份证和卡号一致性
+  platform:
+        jhb_bind_order: 'xxx'
+        jhb_bind_order_by_admin: 'http://xxx' #不对外开发，仅供内部手动绑定订单使用
+        jhb_insert_smuser: 'http://xxx' #绑定订单成功后调用传给进货宝
+  redis:
+#     host: 127.0.0.1
+     port: 6379
+     db: 1
+
+development:
+  <<: *defaults
+  #<<: *development_weixin_yan
+  <<: *development_weixin_test
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
+  <<: *production_weixin

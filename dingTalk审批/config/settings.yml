@@ -1,0 +1,32 @@
+defaults: &defaults
+  ding_talk:
+    corpid: 'dingxxxxxxx'
+    corpsecret: '7jgCy9pB_JkKrAypVm-9i8yzBJ0315XS6pvuPTXoPW46Sd99zbMacqWORmjSd2V_'
+
+development:
+  <<: *defaults
+  order_agentId: 33139980
+  price_agentId: 33139980
+  salesman_agentId: 33139980
+  appId: 'dingxxxxxx'
+  appSecret: 'IMaHgopOC7pzmIRV0nwWAT90iQSE_JehsI06cQQ9BDHnaFNyRMOL99r8EXRoYjAO'
+  signup_form: 'http://xxxx.com.cn/#!/login'
+  verifybankcard: 'http://v.juhe.cn/verifybankcard3/query?key=xxxxxxx8' #验证身份证和卡号一致性
+
+  weixin:
+    send_weixin_message: 'http://xxxxxx.com/users/send_weixin_message'
+
+
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
+  order_agentId: 33141232
+  price_agentId: 35441200
+  salesman_agentId: 35441239
+  signup_form: 'http://xxxx.com.cn/#!/login'
+  verifybankcard: 'http://v.juhe.cn/verifybankcard3/query?key=xxxxxx' #验证身份证和卡号一致性
+  weixin:
+    send_weixin_message: 'http://xxxxx.com.cn/users/send_weixin_message'

@@ -1,0 +1,16 @@
+
+<h1>进货团2.0</h1>
+
+
+<div id="qrcodeCanvas"></div>
+<div id="qrcode"></div>
+<script type="text/javascript">
+    var qrcode = new QRCode(document.getElementById("qrcode"), {
+        text: "http://rails.tunnel.jinhuobao.com.cn/jht2/user_orders/scan_qrcode_order?qrcode=yc2016",
+        width: 128,
+        height: 128,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+    });
+</script>
